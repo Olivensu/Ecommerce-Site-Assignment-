@@ -1,0 +1,36 @@
+.banner{
+    background-image: url(../../img/section-1.png);
+    height: 679px;
+}
+.banner-link:active, a:hover {
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px ;
+  }
+  .banner-h1{
+    font-family: 'Spectral';
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 74px;
+/* or 116% */
+
+
+color: #000002;
+  }
+
+  .hero-banner{
+    background-image: url(../../img/banner-vector.png);
+  }
+  .money{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 30px;
+  }
+
+  .shop-now{
+    
+background-color:  #2B2B2B;
+color: white;
+  }

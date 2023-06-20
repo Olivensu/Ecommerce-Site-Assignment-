@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ThemeProvider } from "@material-tailwind/react";
 import {
   BrowserRouter,
   RouterProvider,
@@ -18,7 +19,9 @@ root.render(
   <React.StrictMode>
     <QueryClientProvider client={queryClient}>
       <BrowserRouter>
-        <App />
+      <ThemeProvider>
+      <App />
+    </ThemeProvider>
       </BrowserRouter>
     </QueryClientProvider>
   </React.StrictMode>
