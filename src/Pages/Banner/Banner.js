@@ -9,6 +9,9 @@ import Trending from '../Trending/Trending';
 import Footer from '../Shared/Footer';
 import Category from '../Category/Category';
 import Featured from '../Featured-Product/Featured';
+import Brands from '../Brands/Brands';
+import Socialmedia from '../Socialmedia/Socialmedia';
+import Review from '../Review/Review';
 
 const Banner = () => {
     return (
@@ -125,6 +128,9 @@ const Banner = () => {
         <Trending></Trending>
         <Category></Category>
         <Featured></Featured>
+        <Brands></Brands>
+        <Socialmedia></Socialmedia>
+        <Review></Review>
         <Footer></Footer>
       </div>
     );
