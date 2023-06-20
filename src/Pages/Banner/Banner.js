@@ -8,6 +8,7 @@ import Slider from '../Review/Slider';
 import Trending from '../Trending/Trending';
 import Footer from '../Shared/Footer';
 import Category from '../Category/Category';
+import Featured from '../Featured-Product/Featured';
 
 const Banner = () => {
     return (
@@ -123,6 +124,7 @@ const Banner = () => {
         </div>
         <Trending></Trending>
         <Category></Category>
+        <Featured></Featured>
         <Footer></Footer>
       </div>
     );
