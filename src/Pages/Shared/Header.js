@@ -54,7 +54,7 @@ const Header = () => {
                 placeholder="Search"
                 className="input-sm input-bordered rounded-full w-full md:w-[500px]"
               />
-              <button type="submit" className="btn-sm absolute rounded-full w-16 ms-[-42px] bg-sky-400"><img className='mx-auto' src={search} alt="" /></button>
+              <button type="submit" className="btn-sm  rounded-full absolute w-16 ms-[-42px] bg-indigo-200 z-40 "><img className='mx-auto' src={search} alt="" /></button>
               
             </div>
           </div>
