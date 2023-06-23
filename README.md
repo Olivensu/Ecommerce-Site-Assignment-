@@ -3,6 +3,9 @@
 
 This repository contains the source code for an eCommerce website. The website features a slider, a long one-page layout, product categories, customer reviews, brand names, and trending featured products.
 
+## Live Server
+Live site link of this project is here: https://wondrous-lebkuchen-68af93.netlify.app [https://wondrous-lebkuchen-68af93.netlify.app]
+
 
 ## Features
 
